@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>PageTemplate.qml</file>
+    </qresource>
+</RCC>
