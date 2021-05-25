@@ -65,6 +65,16 @@ ApplicationWindow {
 
                 onClicked: loader.active = false
             }
+
+            Item {
+                width: 20
+            }
+
+            Text {
+                id: txt
+                text: loader.item ? loader.item.message : ""
+                color: "white"
+            }
         }
     }
 
